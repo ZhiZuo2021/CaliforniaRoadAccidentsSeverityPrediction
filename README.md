@@ -47,8 +47,6 @@ In a future release, we will integrate prediction models into the interactive ma
 Our data is imported from online public data sources, including Kaggle and the united states census bureau. We then filtered and retained California-wide data through Excel.
 We used 70% of the data to train our models and 30% of the data to select our final model. Traffic accident severity could be predicted by inputting the latest data of California roads into our best model. Results then could be visualized on our implemented UI to get a more intuitive result.
 
-![](CaliforniaRoadAccidentsSeverityPrediction/solution_architecture.png)
-
 # Algorithms
 
 We used three machine-learning algorithms when training our models, including logistic regression, random forest, and Naive Bayes. To improve the prediction accuracy, we also introduce a macro-economic feature, population density, to each model. Because county population density is the 5th important attribute that correlates to the accident severity. After testing, the random forest model performs the best among all the three models, based on metrics of prediction accuracy and f1 score. Gaussian Naïve Bayes model gets the worst performances.
