@@ -47,7 +47,7 @@ In a future release, we will integrate prediction models into the interactive ma
 Our data is imported from online public data sources, including Kaggle and the united states census bureau. We then filtered and retained California-wide data through Excel.
 We used 70% of the data to train our models and 30% of the data to select our final model. Traffic accident severity could be predicted by inputting the latest data of California roads into our best model. Results then could be visualized on our implemented UI to get a more intuitive result.
 
-![](./solution_architecuture.png)
+![](CaliforniaRoadAccidentsSeverityPrediction/solution_architecture.png)
 
 # Algorithms
 
